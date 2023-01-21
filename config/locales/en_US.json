@@ -1,0 +1,38 @@
+{
+    "cmd": {
+        "command": "Available commands:"
+    },
+    "init": {
+        "description": "Init new project",
+        "questions": [
+            "Package name",
+            "Package version",
+            "Package description",
+            "Package main file",
+            "Package author"
+        ],
+        "validation": [
+            "Invalid name",
+            "Invalid version"
+        ]
+    },
+    "run": {
+        "description": "Run script DEV FEATURE"
+    },
+    "update": {
+        "description": "Update bolt",
+        "loading": "Updating bolt using NPM",
+        "updated": "After update language resets!"
+    },
+    "lang": {
+        "description": "Change language",
+        "message": "Choose language from list:",
+        "hint": "- Use arrow keys. Press Enter to select.",
+        "locales": {
+            "en_US": "English",
+            "ru_RU": "Russian",
+            "uk_UA": "Ukrainian"
+        },
+        "changed": "Language changed"
+    }
+}

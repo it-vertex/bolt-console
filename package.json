@@ -3,6 +3,9 @@
 	"version": "0.0.1",
 	"description": "Bolt - CLI for Node.js",
 	"main": "bin/index.js",
+    "scripts": {
+        "bolt": "bolt"
+    },
 	"bin": {
 		"bolt": "./bin/index.js"
 	},
