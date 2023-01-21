@@ -14,7 +14,8 @@
         "validation": [
             "Invalid name",
             "Invalid version"
-        ]
+        ],
+        "succeed": "Project created!"
     },
     "run": {
         "description": "Run script DEV FEATURE"
