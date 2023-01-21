@@ -17,9 +17,6 @@
         ],
         "succeed": "Project created!"
     },
-    "run": {
-        "description": "Run script DEV FEATURE"
-    },
     "update": {
         "description": "Update bolt",
         "loading": "Updating bolt using NPM",

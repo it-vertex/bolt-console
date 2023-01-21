@@ -17,9 +17,6 @@
         ],
         "succeed": "Проект створений!"
     },
-    "run": {
-        "description": "Запустити скрипт DEV FEATURE"
-    },
     "update": {
         "description": "Оновити bolt",
         "loading": "Оновлення bolt використовуючи NPM",
