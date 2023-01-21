@@ -3,9 +3,6 @@
 	"version": "0.0.1",
 	"description": "Bolt - CLI for Node.js",
 	"main": "bin/index.js",
-	"scripts": {
-		"upd": "npm i -g . && bolt"
-	},
 	"bin": {
 		"bolt": "./bin/index.js"
 	},
