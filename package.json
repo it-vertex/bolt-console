@@ -1,0 +1,24 @@
+{
+	"name": "bolt-console",
+	"version": "0.0.1",
+	"description": "Bolt - CLI for Node.js",
+	"main": "bin/index.js",
+	"scripts": {
+		"upd": "npm i -g . && bolt"
+	},
+	"bin": {
+		"bolt": "./bin/index.js"
+	},
+	"keywords": [],
+	"author": "MeiNanziiii",
+	"license": "ISC",
+	"dependencies": {
+		"kleur": "^4.1.5",
+		"node-async-exec": "^1.2.0",
+		"ora": "^5.4.1",
+		"prompts": "^2.4.2",
+		"semver": "^7.3.8",
+		"validate-npm-package-name": "^5.0.0",
+		"yargs": "^17.6.2"
+	}
+}
