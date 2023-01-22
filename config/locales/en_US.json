@@ -28,6 +28,7 @@
         "hint": "- Use arrow keys. Press Enter to select.",
         "locales": {
             "en_US": "English",
+            "pl_PL": "Polish",
             "ru_RU": "Russian",
             "uk_UA": "Ukrainian"
         },

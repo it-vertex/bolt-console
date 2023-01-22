@@ -1,0 +1,37 @@
+{
+    "cmd": {
+        "command": "Dostępne polecenia:"
+    },
+    "init": {
+        "description": "Utwórz nowy projekt",
+        "questions": [
+            "Nazwa pakietu",
+            "Wersja pakietu",
+            "Opis pakietu",
+            "Główny plik pakietu",
+            "Autor pakietu"
+        ],
+        "validation": [
+            "Nieprawidłowa nazwa",
+            "Nieprawidłowa wersja"
+        ],
+        "succeed": "Projekt stworzony!"
+    },
+    "update": {
+        "description": "Zaktualizuj bolt",
+        "loading": "Aktualizowanie bolt za pomocą NPM",
+        "updated": "Po aktualizacji język resetuje się!"
+    },
+    "lang": {
+        "description": "Zmień język",
+        "message": "Wybierz język z listy:",
+        "hint": "- Użyj klawiszy strzałek. Naciśnij Enter, aby wybrać.",
+        "locales": {
+            "en_US": "Angielski",
+            "pl_PL": "Polski",
+            "ru_RU": "rosyjski",
+            "uk_UA": "Ukraiński❤️"
+        },
+        "changed": "Zmieniono język"
+    }
+}
