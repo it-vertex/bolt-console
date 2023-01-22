@@ -9,6 +9,7 @@ const config = require("../config/config.json")
 // lib/commands
 const init = require("../lib/commands/init.js")
 const lang = require("../lib/commands/lang.js")
+const run = require("../lib/commands/run.js")
 const update = require("../lib/commands/update.js")
 
 // lib
@@ -18,6 +19,7 @@ const options = yargs
     .locale(config.lang)
     .command("init", locale["init"]["description"])
     .command("lang", locale["lang"]["description"])
+    .command("run", "Run script DEV FEATURE")
     .command("update", locale["update"]["description"])
     .scriptName("bolt")
     .version(false)
@@ -31,6 +33,9 @@ switch (yargs.argv._[0]) {
         break
     case "lang":
         lang()
+        break
+    case "run":
+        run()
         break
     case "update":
         update()
