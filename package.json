@@ -4,7 +4,7 @@
 	"description": "Bolt - CLI for Node.js",
 	"main": "bin/index.js",
 	"scripts": {
-		"bolt": "bolt lang"
+		"bolt": "bolt"
 	},
 	"bin": {
 		"bolt": "./bin/index.js"
@@ -13,7 +13,6 @@
 	"author": "MeiNanziiii",
 	"license": "ISC",
 	"dependencies": {
-		"@npmcli/run-script": "^6.0.0",
 		"kleur": "^4.1.5",
 		"node-async-exec": "^1.2.0",
 		"ora": "^5.4.1",
