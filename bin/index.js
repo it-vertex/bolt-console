@@ -52,8 +52,8 @@ switch (yargs.argv._[0]) {
                 })
             })
             iS.succeed()
-            if (Object.keys(manifest.dependencies).length == 0) return
-            /* const iD = ora("Installing dependencies...").start()
+            /* if (Object.keys(manifest.dependencies).length == 0) return
+            const iD = ora("Installing dependencies...").start()
             for (let i = 0; i < Object.keys(manifest.dependencies).length; i++) {
                 const version = manifest.dependencies[Object.keys(manifest.dependencies)[i]].includes("^") ? manifest.dependencies[Object.keys(manifest.dependencies)[i]].replace("^", "") : manifest.dependencies[Object.keys(manifest.dependencies)[i]]
                 await pacote.manifest(`${Object.keys(manifest.dependencies)[i]}@${version}`).then(async (manifest) => {
