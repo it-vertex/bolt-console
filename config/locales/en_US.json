@@ -7,6 +7,7 @@
         "description": "Configurate CLI",
         "message": "Choose setting:",
         "lang": {
+            "description": "Change language:",
             "message": "Choose language from list:",
             "locales": {
                 "en_US": "English",
@@ -17,7 +18,12 @@
             "changed": "Language changed"
         },
         "multi-threading": {
+            "description": "Change multi-threading mode:",
             "message": "Choose multi-threading mode:",
+            "choices": [
+                "Disable",
+                "Enable"
+            ],
             "enabled": "Multi-threading enabled!",
             "disabled": "Multi-threading disabled!"
         }
