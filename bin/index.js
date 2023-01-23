@@ -2,22 +2,24 @@
 
 // packages
 const yargs = require("yargs")
+const pkg = require("../package.json")
 
 // config
-const config = require("../config/config.json")
+const cfg = require("../config/config.json")
 
 // lib/commands
 const init = require("../lib/commands/init.js")
-const lang = require("../lib/commands/lang.js")
+const config = require("../lib/commands/config.js")
 const update = require("../lib/commands/update.js")
 
 // lib
 const locale = require("../lib/locale.js")
 
 const options = yargs
-    .locale(config.lang)
+    .usage(`Using snapshot-${pkg.version}`)
+    .locale(cfg.lang)
+    .command("config", locale["config"]["description"])
     .command("init", locale["init"]["description"])
-    .command("lang", locale["lang"]["description"])
     .command("update", locale["update"]["description"])
     .scriptName("bolt")
     .version(false)
@@ -26,11 +28,11 @@ const options = yargs
     .argv
 
 switch (yargs.argv._[0]) {
+    case "config":
+        config()
+        break
     case "init":
         init()
-        break
-    case "lang":
-        lang()
         break
     case "update":
         update()

@@ -1,6 +1,27 @@
 {
     "cmd": {
-        "command": "Доступные команды:"
+        "command": "Доступные команды:",
+        "hint": "- Используйте клавиши со стрелками. Нажмите Enter, чтобы выбрать."
+    },
+    "config": {
+        "description": "Configurate CLI",
+        "message": "Choose setting:",
+        "lang": {
+            "description": "Изменить язык",
+            "message": "Выберите язык из списка:",
+            "locales": {
+                "en_US": "Английский",
+                "pl_PL": "Польский",
+                "ru_RU": "Русский",
+                "uk_UA": "Украинский"
+            },
+            "changed": "Язык изменён"
+        },
+        "multi-threading": {
+            "message": "Choose multi-threading mode:",
+            "enabled": "Multi-threading enabled!",
+            "disabled": "Multi-threading disabled!"
+        }
     },
     "init": {
         "description": "Создать новый проект",
@@ -21,17 +42,5 @@
         "description": "Обновить bolt",
         "loading": "Обновление bolt используя NPM",
         "updated": "После обновления язык сбрасывается!"
-    },
-    "lang": {
-        "description": "Изменить язык",
-        "message": "Выберите язык из списка:",
-        "hint": "- Используйте клавиши со стрелками. Нажмите Enter, чтобы выбрать.",
-        "locales": {
-            "en_US": "Английский",
-            "pl_PL": "Польский",
-            "ru_RU": "Русский",
-            "uk_UA": "Украинский"
-        },
-        "changed": "Язык изменён"
     }
 }
