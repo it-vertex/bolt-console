@@ -6,6 +6,8 @@
     "config": {
         "description": "Configurate CLI",
         "message": "Choose setting:",
+        "back": "Back",
+        "exit": "Exit",
         "lang": {
             "description": "Изменить язык:",
             "message": "Выберите язык из списка:",
