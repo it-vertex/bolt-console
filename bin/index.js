@@ -3,9 +3,6 @@
 // packages
 const yargs = require("yargs")
 const pkg = require("../package.json")
-const pacote = require("pacote")
-const fs = require("fs")
-const ora = require("ora")
 
 // config
 const cfg = require("../config/config.json")
@@ -24,6 +21,7 @@ const options = yargs
     .locale(cfg.lang)
     .command("config", locale["config"]["description"])
     .command("init", locale["init"]["description"])
+    .command("install", locale["install"]["description"])
     .command("update", locale["update"]["description"])
     .scriptName("bolt")
     .version(false)

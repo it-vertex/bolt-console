@@ -4,10 +4,10 @@
         "hint": "- Використовуйте клавіші зі стрілками. Натисніть Enter, щоб вибрати."
     },
     "config": {
-        "description": "Configurate CLI",
-        "message": "Choose setting:",
-        "back": "Back",
-        "exit": "Exit",
+        "description": "Налаштувати CLI",
+        "message": "Виберіть налаштування:",
+        "back": "Назад",
+        "exit": "Вихід",
         "lang": {
             "description": "Змінити мову:",
             "message": "Виберіть мову зі списку:",
@@ -18,16 +18,6 @@
                 "uk_UA": "Українська"
             },
             "changed": "Мова змінена"
-        },
-        "multi-threading": {
-            "description": "Change multi-threading mode:",
-            "message": "Choose multi-threading mode:",
-            "choices": [
-                "Disable",
-                "Enable"
-            ],
-            "enabled": "Multi-threading enabled!",
-            "disabled": "Multi-threading disabled!"
         }
     },
     "init": {
@@ -44,6 +34,14 @@
             "Невірна версія"
         ],
         "succeed": "Проект створений!"
+    },
+    "install": {
+        "description": "Встановити пакет",
+        "installingPackage": "Встановлення пакету...",
+        "installedPackage": "Пакет встановлений!",
+        "installingDependencies": "Встановлення залежностей...",
+        "installedDependencies": "Залежності встановлені!",
+        "done": "Готово!"
     },
     "update": {
         "description": "Оновити bolt",

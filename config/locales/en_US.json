@@ -18,16 +18,6 @@
                 "uk_UA": "Ukrainian"
             },
             "changed": "Language changed"
-        },
-        "multi-threading": {
-            "description": "Change multi-threading mode:",
-            "message": "Choose multi-threading mode:",
-            "choices": [
-                "Disable",
-                "Enable"
-            ],
-            "enabled": "Multi-threading enabled!",
-            "disabled": "Multi-threading disabled!"
         }
     },
     "init": {
@@ -44,6 +34,14 @@
             "Invalid version"
         ],
         "succeed": "Project created!"
+    },
+    "install": {
+        "description": "Install package",
+        "installingPackage": "Installing package...",
+        "installedPackage": "Installed package!",
+        "installingDependencies": "Installing dependencies...",
+        "installedDependencies": "Installed dependencies!",
+        "done": "Done!"
     },
     "update": {
         "description": "Update bolt",

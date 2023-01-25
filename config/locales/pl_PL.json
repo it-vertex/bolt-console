@@ -4,10 +4,10 @@
         "hint": "- Użyj klawiszy strzałek. Naciśnij Enter, aby wybrać."
     },
     "config": {
-        "description": "Configurate CLI",
-        "message": "Choose setting:",
-        "back": "Back",
-        "exit": "Exit",
+        "description": "Skonfiguruj interfejs wiersza polecenia",
+        "message": "Wybierz ustawienie:",
+        "back": "Z powrotem",
+        "exit": "Wyjście",
         "lang": {
             "description": "Zmień język:",
             "message": "Wybierz język z listy:",
@@ -18,16 +18,6 @@
                 "uk_UA": "Ukraiński❤️"
             },
             "changed": "Zmieniono język"
-        },
-        "multi-threading": {
-            "description": "Change multi-threading mode:",
-            "message": "Choose multi-threading mode:",
-            "choices": [
-                "Disable",
-                "Enable"
-            ],
-            "enabled": "Multi-threading enabled!",
-            "disabled": "Multi-threading disabled!"
         }
     },
     "init": {
@@ -44,6 +34,14 @@
             "Nieprawidłowa wersja"
         ],
         "succeed": "Projekt stworzony!"
+    },
+    "install": {
+        "description": "Zainstaluj pakiet",
+        "installingPackage": "Instalowanie pakietu...",
+        "installedPackage": "Pakiet jest zainstalowany!",
+        "installingDependencies": "Instalowanie zależności...",
+        "installedDependencies": "Zależności zainstalowane!",
+        "done": "Gotowy!"
     },
     "update": {
         "description": "Zaktualizuj bolt",
